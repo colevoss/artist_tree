@@ -1,0 +1,40 @@
+@import "settings";
+
+.ArtistBlock {
+  padding: 0;
+  height: 132px;
+  background: $super-light-gray;
+  margin: 5px;
+  width: 200px;
+  flex-shrink: 2;
+  flex-grow: 5;
+}
+
+.ArtistBlock:hover {
+  background: $light-gray;
+
+  .artist-name {
+    background: $c-color-1;
+  }
+}
+
+.ArtistBlock .artist-name {
+  text-align: center;
+  background: $gray;
+  color: $white;
+  border-top: 1px solid $dark-gray;
+  font-size: 14px;
+  font-weight: 300;
+  align-self: flex-end;
+}
+
+.ArtistBlock .image-holder {
+  padding: 10px;
+  max-height: 100px;
+  min-height: 100px;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-bottom: 10px
+}

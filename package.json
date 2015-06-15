@@ -1,0 +1,31 @@
+{
+  "name": "artist_tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony app",
+    "build": "webpack"
+  },
+  "author": "Cole Voss",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.12.0",
+    "koa": "^0.20.0",
+    "koa-static": "^1.4.9",
+    "lodash": "^3.8.0",
+    "node-sass": "^2.1.1",
+    "react": "^0.13.2",
+    "reflux": "^0.2.7",
+    "sass-loader": "^0.6.0",
+    "style-loader": "^0.12.1",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.2.2",
+    "babel-loader": "^5.0.0",
+    "loader-utils": "^0.2.7",
+    "webpack": "^1.8.11"
+  }
+}

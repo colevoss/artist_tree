@@ -1,0 +1,55 @@
+@import "settings";
+.Nav .results-list {
+  position: absolute;
+  top: 50px;
+  right: 0.9375rem;
+  width: 30%;
+  max-width: 250px;
+  background: $gray;
+  padding: 5px;
+  z-index: 100;
+
+  .results-container {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .result-item {
+    display: block;
+    background: $white;
+    border-bottom: 2px solid $light-gray;
+    color: $p-color2;
+
+    &:hover {
+      color: $c-color0;
+    }
+  }
+
+  .result-item:last-child {
+    border-bottom: none;
+  }
+
+  .result-item .artist-name {
+    display: inline-block;
+    margin: 14px 5px;
+  }
+
+  .result-item img {
+    height: 40px;
+    width: 40px;
+    margin: 0 4px;
+    border-radius: 40px
+  }
+
+  a.more-artists {
+    width: 100%;
+    color: $white;
+    text-align: center;
+    display: inline-block;
+
+
+    &:hover {
+      color: $c-color0
+    }
+  }
+}

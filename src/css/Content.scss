@@ -1,0 +1,17 @@
+@import "settings";
+
+.Content {
+  font-weight: 500;
+  background: $white;
+  height: 100%;
+}
+
+.Content .artist-container {
+  max-height: 83%;
+  overflow-y: auto;
+  padding: 5px;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-flow: row wrap;
+}
